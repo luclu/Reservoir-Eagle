@@ -1,0 +1,4 @@
+[submodule "Reservoir-Eagle-libs"]
+	path = Reservoir-Eagle-libs
+[submodule "Reservoir-Eagle-libs"]
+	url = git@gogs.luoa.de:luca/Reservoir-Eagle-libs.git
