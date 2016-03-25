@@ -8228,9 +8228,9 @@ Standard 10-pin dual row 0.1" header. Commonly used with AVR-ISP. Use with Spark
 <instance part="R11" gate="G$1" x="7.62" y="58.42"/>
 <instance part="R12" gate="G$1" x="-58.42" y="38.1" rot="R270"/>
 <instance part="C6" gate="G$1" x="15.24" y="55.88"/>
-<instance part="ESD" gate="G$1" x="-60.96" y="83.82" smashed="yes">
-<attribute name="VALUE" x="-68.58" y="76.2" size="1.778" layer="96"/>
-<attribute name="NAME" x="-55.88" y="81.28" size="1.778" layer="95"/>
+<instance part="ESD" gate="G$1" x="-60.96" y="83.82" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-53.34" y="76.2" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="-66.04" y="81.28" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="J1" gate="G$1" x="119.38" y="30.48" rot="R180"/>
 </instances>
@@ -8432,7 +8432,7 @@ Standard 10-pin dual row 0.1" header. Commonly used with AVR-ISP. Use with Spark
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="USB" gate="G$1" pin="3"/>
 <wire x1="-55.88" y1="93.98" x2="-58.42" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="ESD" gate="G$1" pin="P$2"/>
+<pinref part="ESD" gate="G$1" pin="P$1"/>
 <wire x1="-58.42" y1="93.98" x2="-78.74" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="86.36" x2="-58.42" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-58.42" y="93.98"/>
@@ -8878,13 +8878,13 @@ Standard 10-pin dual row 0.1" header. Commonly used with AVR-ISP. Use with Spark
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="ESD" gate="G$1" pin="P$1"/>
-<wire x1="-63.5" y1="86.36" x2="-63.5" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="-63.5" y1="88.9" x2="-55.88" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="88.9" x2="-63.5" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="USB" gate="G$1" pin="2"/>
 <wire x1="-63.5" y1="91.44" x2="-78.74" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="ESD" gate="G$1" pin="P$2"/>
+<wire x1="-63.5" y1="86.36" x2="-63.5" y2="88.9" width="0.1524" layer="91"/>
 <junction x="-63.5" y="88.9"/>
 </segment>
 </net>
