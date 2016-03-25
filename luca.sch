@@ -8174,13 +8174,16 @@ Standard 10-pin dual row 0.1" header. Commonly used with AVR-ISP. Use with Spark
 <instance part="R3" gate="G$1" x="-50.8" y="88.9"/>
 <instance part="USB" gate="G$1" x="-81.28" y="93.98" rot="R180"/>
 <instance part="PWD" gate="A" x="-40.64" y="-22.86"/>
-<instance part="DC-DC" gate="G$1" x="-55.88" y="-12.7"/>
+<instance part="DC-DC" gate="G$1" x="-55.88" y="-12.7" smashed="yes">
+<attribute name="NAME" x="-60.96" y="-6.35" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-71.12" y="-20.32" size="1.778" layer="96"/>
+</instance>
 <instance part="PRESS" gate="G$1" x="15.24" y="-17.78"/>
 <instance part="C1" gate="G$1" x="-33.02" y="-22.86"/>
-<instance part="C4" gate="G$1" x="17.78" y="101.6"/>
-<instance part="C2" gate="G$1" x="2.54" y="101.6"/>
-<instance part="C3" gate="G$1" x="10.16" y="101.6"/>
-<instance part="C5" gate="G$1" x="2.54" y="76.2"/>
+<instance part="C4" gate="G$1" x="22.86" y="101.6"/>
+<instance part="C2" gate="G$1" x="7.62" y="101.6"/>
+<instance part="C3" gate="G$1" x="15.24" y="101.6"/>
+<instance part="C5" gate="G$1" x="7.62" y="76.2"/>
 <instance part="C9" gate="G$1" x="-76.2" y="83.82"/>
 <instance part="SWD" gate="G$1" x="-68.58" y="48.26"/>
 <instance part="R4" gate="G$1" x="-50.8" y="58.42"/>
@@ -8225,9 +8228,9 @@ Standard 10-pin dual row 0.1" header. Commonly used with AVR-ISP. Use with Spark
 <instance part="C10" gate="G$1" x="-2.54" y="-7.62"/>
 <instance part="R10" gate="G$1" x="-50.8" y="27.94" rot="MR0"/>
 <instance part="C8" gate="G$1" x="-58.42" y="25.4" rot="MR0"/>
-<instance part="R11" gate="G$1" x="7.62" y="58.42"/>
+<instance part="R11" gate="G$1" x="12.7" y="58.42"/>
 <instance part="R12" gate="G$1" x="-58.42" y="38.1" rot="R270"/>
-<instance part="C6" gate="G$1" x="15.24" y="55.88"/>
+<instance part="C6" gate="G$1" x="20.32" y="55.88"/>
 <instance part="ESD" gate="G$1" x="-60.96" y="83.82" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-53.34" y="76.2" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="-66.04" y="81.28" size="1.778" layer="95" rot="MR0"/>
@@ -8260,8 +8263,8 @@ Standard 10-pin dual row 0.1" header. Commonly used with AVR-ISP. Use with Spark
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="2.54" y1="71.12" x2="0" y2="71.12" width="0.1524" layer="91"/>
-<label x="0" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="7.62" y1="71.12" x2="5.08" y2="71.12" width="0.1524" layer="91"/>
+<label x="5.08" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
@@ -8335,14 +8338,14 @@ Standard 10-pin dual row 0.1" header. Commonly used with AVR-ISP. Use with Spark
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="17.78" y1="96.52" x2="10.16" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="96.52" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="96.52" x2="2.54" y2="96.52" width="0.1524" layer="91"/>
-<junction x="10.16" y="96.52"/>
+<wire x1="15.24" y1="96.52" x2="7.62" y2="96.52" width="0.1524" layer="91"/>
+<junction x="15.24" y="96.52"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="2.54" y1="96.52" x2="0" y2="96.52" width="0.1524" layer="91"/>
-<junction x="2.54" y="96.52"/>
-<label x="0" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="7.62" y1="96.52" x2="5.08" y2="96.52" width="0.1524" layer="91"/>
+<junction x="7.62" y="96.52"/>
+<label x="5.08" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="A" pin="VSSA"/>
@@ -8423,8 +8426,8 @@ Standard 10-pin dual row 0.1" header. Commonly used with AVR-ISP. Use with Spark
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
-<label x="0" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="20.32" y1="50.8" x2="5.08" y2="50.8" width="0.1524" layer="91"/>
+<label x="5.08" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -8528,11 +8531,11 @@ Standard 10-pin dual row 0.1" header. Commonly used with AVR-ISP. Use with Spark
 <junction x="-2.54" y="-12.7"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="78.74" x2="2.54" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="78.74" x2="7.62" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="78.74" x2="0" y2="78.74" width="0.1524" layer="91"/>
-<label x="0" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
-<junction x="2.54" y="78.74"/>
+<wire x1="7.62" y1="78.74" x2="5.08" y2="78.74" width="0.1524" layer="91"/>
+<label x="5.08" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="7.62" y="78.74"/>
 <pinref part="MCU" gate="A" pin="USB_VDD"/>
 </segment>
 <segment>
@@ -8564,22 +8567,22 @@ Standard 10-pin dual row 0.1" header. Commonly used with AVR-ISP. Use with Spark
 <wire x1="33.02" y1="96.52" x2="35.56" y2="96.52" width="0.1524" layer="91"/>
 <junction x="33.02" y="101.6"/>
 <junction x="33.02" y="99.06"/>
-<wire x1="33.02" y1="104.14" x2="17.78" y2="104.14" width="0.1524" layer="91"/>
-<label x="0" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="33.02" y1="104.14" x2="22.86" y2="104.14" width="0.1524" layer="91"/>
+<label x="5.08" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 <junction x="33.02" y="104.14"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="104.14" x2="10.16" y2="104.14" width="0.1524" layer="91"/>
-<junction x="17.78" y="104.14"/>
+<wire x1="22.86" y1="104.14" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
+<junction x="22.86" y="104.14"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="10.16" y1="104.14" x2="2.54" y2="104.14" width="0.1524" layer="91"/>
-<junction x="10.16" y="104.14"/>
+<wire x1="15.24" y1="104.14" x2="7.62" y2="104.14" width="0.1524" layer="91"/>
+<junction x="15.24" y="104.14"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="104.14" x2="0" y2="104.14" width="0.1524" layer="91"/>
-<junction x="2.54" y="104.14"/>
+<wire x1="7.62" y1="104.14" x2="5.08" y2="104.14" width="0.1524" layer="91"/>
+<junction x="7.62" y="104.14"/>
 </segment>
 <segment>
-<wire x1="2.54" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
-<label x="0" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="7.62" y1="58.42" x2="5.08" y2="58.42" width="0.1524" layer="91"/>
+<label x="5.08" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -8869,11 +8872,11 @@ Standard 10-pin dual row 0.1" header. Commonly used with AVR-ISP. Use with Spark
 <net name="NMI_B" class="0">
 <segment>
 <pinref part="MCU" gate="A" pin="PTA4"/>
-<wire x1="35.56" y1="58.42" x2="15.24" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="58.42" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="58.42" x2="12.7" y2="58.42" width="0.1524" layer="91"/>
-<junction x="15.24" y="58.42"/>
+<wire x1="20.32" y1="58.42" x2="17.78" y2="58.42" width="0.1524" layer="91"/>
+<junction x="20.32" y="58.42"/>
 </segment>
 </net>
 <net name="N$2" class="0">
