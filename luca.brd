@@ -2515,7 +2515,8 @@ Covered vias can be set in Masks (Limit).
 <wire x1="11.1125" y1="38.605" x2="11.1125" y2="40.005" width="0.29" layer="1"/>
 <via x="11.1125" y="40.005" extent="1-16" drill="0.508"/>
 <wire x1="11.1125" y1="40.005" x2="11.7475" y2="40.005" width="0.29" layer="16"/>
-<wire x1="3.9" y1="59.4" x2="4.0375" y2="59.42" width="0" layer="19" extent="1-1"/>
+<wire x1="3.9" y1="59.4" x2="3.81" y2="59.49" width="0.29" layer="1"/>
+<wire x1="3.81" y1="59.49" x2="3.81" y2="60.0125" width="0.29" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R2" pad="1"/>
@@ -2642,6 +2643,10 @@ Covered vias can be set in Masks (Limit).
 <wire x1="19.815" y1="48.1050125" x2="19.815" y2="46.65" width="0.29" layer="1"/>
 <wire x1="22.6441" y1="45.104990625" x2="19.815" y2="45.104990625" width="0.29" layer="1"/>
 <wire x1="19.815" y1="45.104990625" x2="19.815" y2="46.65" width="0.29" layer="1"/>
+<contactref element="J1" pad="1"/>
+<wire x1="6.4897" y1="42.545" x2="6.4897" y2="38.2778" width="0.29" layer="1"/>
+<wire x1="6.4897" y1="38.2778" x2="8.89" y2="35.8775" width="0.29" layer="1"/>
+<wire x1="8.89" y1="35.8775" x2="11.3" y2="35.8775" width="0.29" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="DC-DC" pad="1"/>
@@ -3026,16 +3031,6 @@ Covered vias can be set in Masks (Limit).
 </signal>
 <signal name="VREFL">
 <contactref element="MCU" pad="15"/>
-</signal>
-<signal name="N$12">
-<contactref element="MCU" pad="20"/>
-<contactref element="J1" pad="1"/>
-<wire x1="26.007490625" y1="41.7416" x2="26.007490625" y2="39.659990625" width="0.29" layer="1"/>
-<wire x1="24.915" y1="38.5675" x2="19.8525" y2="38.5675" width="0.29" layer="1"/>
-<wire x1="14.47" y1="43.95" x2="8.0772" y2="43.95" width="0.29" layer="1"/>
-<wire x1="8.0772" y1="43.95" x2="6.4897" y2="42.545" width="0.29" layer="1"/>
-<wire x1="26.007490625" y1="39.659990625" x2="24.915" y2="38.5675" width="0.29" layer="1"/>
-<wire x1="14.47" y1="43.95" x2="19.8525" y2="38.5675" width="0.29" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="MCU" pad="21"/>

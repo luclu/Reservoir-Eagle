@@ -8590,6 +8590,11 @@ Standard 10-pin dual row 0.1" header. Commonly used with AVR-ISP. Use with Spark
 <wire x1="-45.72" y1="27.94" x2="-43.18" y2="27.94" width="0.1524" layer="91"/>
 <label x="-43.18" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="30.48" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
+<label x="111.76" y="33.02" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -8896,13 +8901,6 @@ Standard 10-pin dual row 0.1" header. Commonly used with AVR-ISP. Use with Spark
 <pinref part="SWD" gate="G$1" pin="10"/>
 <wire x1="-60.96" y1="43.18" x2="-58.42" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="MCU" gate="A" pin="PTE24"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="30.48" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
